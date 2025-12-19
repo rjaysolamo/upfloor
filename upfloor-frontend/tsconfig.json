@@ -19,9 +19,9 @@
         }
       ],
       "paths": {
-        "@/*": ["./upfloor-frontend/*"]
+        "@/*": ["./*"]
       }
     },
-    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "upfloor-frontend/**/*.ts", "upfloor-frontend/**/*.tsx", "upfloor-backend/**/*.ts", "upfloor-backend/**/*.tsx"],
+    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "upfloor-frontend/**/*.ts", "upfloor-frontend/**/*.tsx", "upfloor-backend/**/*.ts", "upfloor-backend/**/*.tsx", "upfloor-backend/**/*.js"],
     "exclude": ["node_modules"]
   }
